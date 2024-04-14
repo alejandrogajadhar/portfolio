@@ -1,0 +1,264 @@
+{
+    "education": [
+        {
+            "school": "Salesians de Sarrià",
+            "startingYear": 2014,
+            "finishYear": 2017,
+            "startingMonth": "Sep",
+            "finishMonth": "Jun",
+            "fullName": "Sistemas microinformáticos y redes (SMX)",
+            "studyLevel": "Formación Profesional de Grado Medio",
+            "location": "Barcelona",
+            "technologies": [
+                "Windows",
+                "Windows Server",
+                "Linux",
+                "Linux Server",
+                "Command Line",
+                "Active Directory",
+                "DNS",
+                "Samba",
+                "Redes",
+                "Cisco Packet Tracer",
+                "Microsofot Visio",
+                "Hardware",
+                "HTML & CSS",
+                "Javascript",
+                "Word",
+                "Excel",
+                "Access",
+                "Sony Vegas"
+            ]
+        },
+        {
+            "school": "Centre d'Estudis Politécnics",
+            "startingYear": 2020,
+            "finishYear": 2022,
+            "startingMonth": "Sep",
+            "finishMonth": "Jun",
+            "fullName": "Desarrollo de aplicaciones multiplataforma (DAM)",
+            "studyLevel": "Formación Profesional de Grado Superior",
+            "location": "Barcelona",
+            "technologies": [
+                "Java",
+                "C#",
+                "MySQL",
+                "SQL Server",
+                "HTML5 & CSS",
+                "MongoDB",
+                "Shell Scripting",
+                "UML",
+                "XSD",
+                "JUnit",
+                "Java Android Studio",
+                "Microsoft Visual Studio",
+                "NetBeans"
+            ]
+        }
+    ],
+    "aboutme": {
+        "title": "¿Quién soy?",
+        "text": "¡Hola! Soy un apasionado desarrollador full stack con una sólida formación en desarrollo de aplicaciones multiplataforma y sistemas microinformáticos y redes. A lo largo de mi carrera, he adquirido una amplia experiencia en diversos lenguajes y tecnologías, lo que me ha permitido diseñar, mejorar y solucionar problemas en una variedad de proyectos. \n \nEn el ámbito del desarrollo web, he trabajado con tecnologías punteras como TypeScript en Angular y Node.js con JavaScript, donde he desarrollado tanto el frontend como el backend de aplicaciones web complejas. También tengo experiencia en el uso de ASP.NET y PHP para crear soluciones web robustas y escalables. \n \nAdemás, he incursionado en el desarrollo de aplicaciones de escritorio utilizando .NET Framework y C#, brindando soluciones personalizadas y eficientes para diversas necesidades empresariales. Asimismo, he desarrollado APIs utilizando estas mismas tecnologías para facilitar la integración entre diferentes sistemas. \n \nMi experiencia también abarca el manejo de bases de datos, especialmente en entornos SQL Server, donde he diseñado y gestionado bases de datos eficientes y seguras para respaldar aplicaciones web y de escritorio. \n \nEstoy constantemente buscando desafíos emocionantes y oportunidades para expandir mis habilidades mientras contribuyo al éxito de proyectos innovadores. ¡Espero poder colaborar contigo en tu próximo proyecto!",
+        "introExperiencias": "He acumulado una valiosa experiencia como programador, comenzando con un enfoque multidisciplinario que me ha permitido no solo dominar habilidades técnicas, sino también desarrollar una mentalidad analítica y una capacidad para resolver problemas de manera eficiente.",
+        "verexperiencias": "Ver mis experiencias laborales >>"
+    },
+    "languages": {
+        "angular": {
+            "name": "TypeScript",
+            "progress": "90",
+            "frameworks": [
+                "Angular"
+            ],
+            "experiences": [
+                "Creé un ERP web desde cero utilizando Angular y programación reactiva.",
+                "Realicé llamadas a una API en .NET, lectura de tarjetas NFC, y creación de PDFs dinámicos a partir de datos XML.",
+                "Implementé reconocimiento facial en fotografías, encriptaciones varias, y uso de local y session storage."
+            ],
+            "id": "angular"
+        },
+        "node": {
+            "name": "Javascript",
+            "progress": "70",
+            "frameworks": [
+                "Node.js"
+            ],
+            "experiences": [
+                "Desarrollé un middleware en Express para controlar operadores conectados en una página web, alojado en IIS.",
+                "Actuaba como puente para órdenes directas desde el servidor a operadores con sesión iniciada.",
+                "Inhabilitaba la página web si alguno de los servidores estaba inactivo y notificaba a los operadores para una localización de fallos eficiente.",
+                "Cargaba traducciones de labels y mensajes desde archivos Access en varios idiomas."
+            ],
+            "id": "node"
+        },
+        "java": {
+            "name": "Java",
+            "progress": "70",
+            "frameworks": [],
+            "experiences": [
+                "Aprendí las bases de la programación con Java utilizando muchas tecnologías que a dia de hoy aplico en otros lenguajes, incluyendo conexiones con MySQL y SQLServer, pero no tengo experiencia laboral en este lenguaje."
+            ],
+            "id": "java"
+        },
+        "csharp": {
+            "name": "C#",
+            "progress": "80",
+            "frameworks": [
+                ".NET Framework 4.8"
+            ],
+            "experiences": [
+                "Participo en un proyecto principal de un ERP para escritorio, donde trabajé en el envío de correos masivos, reconocimiento facial en fotografías, y mejoras de rendimiento.",
+                "Desarrollé una RestAPI desde cero en .NET y participé en actualizaciones de código de una página web interna en ASP.NET."
+            ],
+            "id": "csharp"
+        },
+        "javaandroid": {
+            "name": "Java (Android Studio)",
+            "progress": "60",
+            "frameworks": [
+                "Native Android",
+                "Cordova"
+            ],
+            "experiences": [
+                "Desarrollé aplicaciones con interacción con API, reconocimiento biométrico, NFC, escaneo de QR, configuración de red, encriptación de fotografías, y optimizaciones de rendimiento."
+            ],
+            "id": "javaandroid"
+        },
+        "sqlserver": {
+            "name": "SQL Server",
+            "progress": "80",
+            "frameworks": [],
+            "experiences": [
+                "Realizo mantenimiento regular y actualizaciones en SQL Server para garantizar su correcto funcionamiento y seguridad.",
+                "Aprendí a trabajar con SQL Server durante mis estudios de programación y desde entonces lo he utilizado como la base de datos principal en todas las aplicaciones en las que trabajo."
+            ],
+            "id": "sqlserver"
+        },
+        "mysql": {
+            "name": "MySQL",
+            "progress": "70",
+            "frameworks": [],
+            "experiences": [
+                "Realicé el mantenimiento y las queries en PHP para la gestión de MySQL desde UI, así como el uso de procedures, triggers, CRUD y conexión con otros lenguajes."
+            ],
+            "id": "mysql"
+        },
+        "mongodb": {
+            "name": "MongoDB",
+            "progress": "20",
+            "frameworks": [],
+            "experiences": [
+                "Aprendí la base de MongoDB y la utilicé desde la terminal, pero no tengo experiencia laboral en este ámbito."
+            ],
+            "id": "mongodb"
+        },
+        "php": {
+            "name": "PHP",
+            "progress": "20",
+            "frameworks": [
+                "WordPress"
+            ],
+            "experiences": [
+                "Migré una página web de PHP 5.3 a PHP 8.1 y realicé actualizaciones correspondientes.",
+                "Trabajé en el mantenimiento y las queries en PHP para la gestión de MySQL desde UI."
+            ],
+            "id": "php"
+        },
+        "htmlcss": {
+            "name": "HTML & CSS",
+            "progress": "90",
+            "frameworks": [],
+            "experiences": [
+                "Desarrollé proyectos en HTML/5, CSS/3 y SCSS, con animaciones, transformaciones y transiciones."
+            ],
+            "id": "htmlcss"
+        },
+        "batch": {
+            "name": "Batch Scripting",
+            "progress": "65",
+            "frameworks": [],
+            "experiences": [
+                "Automatización de instalaciones y enlaces de certificados SSL en IIS, así como instalación de programas de forma automatizada."
+            ],
+            "id": "batch"
+        }
+    },
+    "workingexperiences": {
+        "experience1": {
+            "startingYear": 2018,
+            "finishYear": 2018,
+            "startingMonth": "Jul.",
+            "finishMonth": "Ago.",
+            "nombrePuesto": "Teleoperador",
+            "empresa": "Konecta",
+            "texto": "",
+            "experiences": [
+                "Atención al cliente resolviendo y derivando problemas.",
+                "Aprendizaje de análisis de situaciones y habilidades de comunicación."
+            ]
+        },
+        "experiencia2": {
+            "startingYear": 2018,
+            "finishYear": 2019,
+            "startingMonth": "Ago.",
+            "finishMonth": "Ene.",
+            "nombrePuesto": "Auxiliar de seguridad",
+            "empresa": "IMAN Corp.",
+            "texto": "",
+            "experiences": [
+                "Responsabilidad en la seguridad de edificios de oficinas.",
+                "Resolución de incidencias y atención a visitantes."
+            ]
+        },
+        "experiencia3": {
+            "startingYear": 2018,
+            "finishYear": 2023,
+            "startingMonth": "Dic.",
+            "finishMonth": "Ago.",
+            "nombrePuesto": "Auxiliar de seguridad",
+            "empresa": "Barna Porters",
+            "experiences": [
+                "Manejo de tráfico y seguridad en eventos deportivos.",
+                "Análisis y manejo de situaciones estresantes."
+            ]
+        },
+        "experiencia4": {
+            "startingYear": 2020,
+            "finishYear": 2020,
+            "startingMonth": "Ene.",
+            "finishMonth": "Ago.",
+            "nombrePuesto": "Técnico informático",
+            "empresa": "MovilClinic",
+            "experiences": [
+                "Atención al cliente presencial y reparación de dispositivos.",
+                "Registro y seguimiento de reparaciones mediante ERP."
+            ]
+        },
+        "experiencia5": {
+            "startingYear": 2022,
+            "finishYear": 0,
+            "startingMonth": "Jun.",
+            "finishMonth": "Actualmente",
+            "nombrePuesto": "Desarrollador Full-Stack Jr.",
+            "empresa": "Qontinuum Plus SL",
+            "experiences": [
+                "Desarrollo de aplicación Android para control de accesos.",
+                "Desarrollo de ERP web con TypeScript y Angular.",
+                "Implementación de sistemas de seguridad, certificados SSL.",
+                "Desarrollo de páginas web para auto registro de visitantes y acceso.",
+                "Mejoras en aplicaciones existentes, migración de PHP y arreglos de páginas web."
+            ]
+        }
+    },
+    "labels": {
+        "home": "Inicio",
+        "education": "Estudios",
+        "workingExperience": "Experiencia laboral",
+        "programmingExperience": "Experiencia en programación",
+        "CV": "Curriculum",
+        "downloadCV": "Descargar CV",
+        "seeHere": "Ver aquí",
+        "intro": "DesarrolladorFull Stack",
+        "infoText": "Esta página fue hecha en Angular.",
+        "search": "Buscar"
+    }
+}

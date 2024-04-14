@@ -1,0 +1,264 @@
+{
+    "education": [
+        {
+            "school": "Salesians de Sarrià",
+            "startingYear": 2014,
+            "finishYear": 2017,
+            "startingMonth": "Set",
+            "finishMonth": "Jun",
+            "fullName": "Sistemes microinformàtics i xarxes (SMX)",
+            "studyLevel": "Formació Professional de Grau Mitjà",
+            "location": "Barcelona",
+            "technologies": [
+                "Windows",
+                "Windows Server",
+                "Linux",
+                "Linux Server",
+                "Línia de comandes",
+                "Active Directory",
+                "DNS",
+                "Samba",
+                "Xarxes",
+                "Cisco Packet Tracer",
+                "Microsofot Visio",
+                "Hardware",
+                "HTML & CSS",
+                "Javascript",
+                "Word",
+                "Excel",
+                "Access",
+                "Sony Vegas"
+            ]
+        },
+        {
+            "school": "Centre d'Estudis Politécnics",
+            "startingYear": 2020,
+            "finishYear": 2022,
+            "startingMonth": "Set",
+            "finishMonth": "Jun",
+            "fullName": "Desenvolupament d'aplicacions multiplataforma (DAM)",
+            "studyLevel": "Formació Professional de Grau Superior",
+            "location": "Barcelona",
+            "technologies": [
+                "Java",
+                "C#",
+                "MySQL",
+                "SQL Server",
+                "HTML5 & CSS",
+                "MongoDB",
+                "Shell Scripting",
+                "UML",
+                "XSD",
+                "JUnit",
+                "Java Android Studio",
+                "Microsoft Visual Studio",
+                "NetBeans"
+            ]
+        }
+    ],
+    "aboutme": {
+        "title": "¿Quién sóc?",
+        "text": "¡Hola! Sóc un apassionat desenvolupador full stack amb una sòlida formació en desenvolupament d'aplicacions multiplataforma i sistemes microinformàtics i xarxes. Al llarg de la meva carrera, he adquirit una àmplia experiència en diversos llenguatges i tecnologies, el que m'ha permès dissenyar, millorar i solucionar problemes en una varietat de projectes. \n \nEn l'àmbit del desenvolupament web, he treballat amb tecnologies punteres com TypeScript en Angular i Node.js amb JavaScript, on he desenvolupat tant el frontend com el backend d'aplicacions web complexes. També tinc experiència en l'ús de ASP.NET i PHP per crear solucions web robustes i escalables. \n \nA més, m'he aventurat en el desenvolupament d'aplicacions d'escriptori utilitzant .NET Framework i C#, oferint solucions personalitzades i eficients per a diverses necessitats empresarials. També he desenvolupat APIs utilitzant aquestes mateixes tecnologies per facilitar la integració entre diferents sistemes. \n \nLa meva experiència també inclou el maneig de bases de dades, especialment en entorns SQL Server, on he dissenyat i gestionat bases de dades eficients i segures per donar suport a aplicacions web i d'escriptori. \n \nEstic constantment buscant desafiaments emocionants i oportunitats per ampliar les meves habilitats mentre contribueixo al èxit de projectes innovadors. Espero poder col·laborar amb tu en el teu proper projecte!",
+        "introExperiencias": "He acumulat una valuosa experiència com a programador, començant amb un enfocament multidisciplinari que m'ha permès no només dominar habilitats tècniques, sinó també desenvolupar una mentalitat analítica i una capacitat per resoldre problemes de manera eficient.",
+        "verexperiencias": "Veure les meves experiències laborals >>"
+    },
+    "languages": {
+        "angular": {
+            "name": "TypeScript",
+            "progress": "80",
+            "frameworks": [
+                "Angular"
+            ],
+            "experiences": [
+                "Vaig crear un ERP web des de zero utilitzant Angular i programació reactiva.",
+                "Vaig fer crides a una API en .NET, lectura de targetes NFC i creació de PDFs dinàmics a partir de dades XML.",
+                "Vaig implementar el reconeixement facial en fotografies, diverses encriptacions i ús de local i session storage."
+            ],
+            "id": "angular"
+        },
+        "node": {
+            "name": "Javascript",
+            "progress": "70",
+            "frameworks": [
+                "Node.js"
+            ],
+            "experiences": [
+                "Vaig desenvolupar un middleware en Express per controlar operadors connectats en una pàgina web, allotjat en IIS.",
+                "Actuava com a pont per a ordres directes des del servidor a operadors amb sessió iniciada.",
+                "Inhabilitava la pàgina web si algun dels servidors estava inactiu i notificava als operadors per a una localització d'errors eficient.",
+                "Carregava traduccions d'etiquetes i missatges des de fitxers Access en diversos idiomes."
+            ],
+            "id": "node"
+        },
+        "java": {
+            "name": "Java",
+            "progress": "70",
+            "frameworks": [],
+            "experiences": [
+                "Vaig aprendre les bases de la programació amb Java utilitzant moltes tecnologies que avui dia aplico en altres llenguatges, incloent connexions amb MySQL i SQLServer, però no tinc experiència laboral en aquest llenguatge."
+            ],
+            "id": "java"
+        },
+        "csharp": {
+            "name": "C#",
+            "progress": "70",
+            "frameworks": [
+                ".NET Framework 4.8"
+            ],
+            "experiences": [
+                "Participo en un projecte principal d'un ERP per a escriptori, on vaig treballar en l'enviament de correus massius, el reconeixement facial en fotografies i millores de rendiment.",
+                "Vaig desenvolupar una RestAPI des de zero en .NET i vaig participar en actualitzacions de codi d'una pàgina web interna en ASP.NET."
+            ],
+            "id": "csharp"
+        },
+        "javaandroid": {
+            "name": "Java (Android Studio)",
+            "progress": "70",
+            "frameworks": [
+                "Native Android",
+                "Cordova"
+            ],
+            "experiences": [
+                "Vaig desenvolupar aplicacions amb interacció amb API, reconeixement biomètric, NFC, escaneig de QR, configuració de xarxa, encriptació de fotografies i optimitzacions de rendiment."
+            ],
+            "id": "javaandroid"
+        },
+        "sqlserver": {
+            "name": "SQL Server",
+            "progress": "70",
+            "frameworks": [],
+            "experiences": [
+                "Realitzo manteniment i actualitzacions regulars a SQL Server per garantir el seu correcte funcionament i seguretat.",
+                "Vaig aprendre a treballar amb SQL Server durant els meus estudis de programació i des de llavors l'he utilitzat com a base de dades principal en totes les aplicacions en les quals treballo."
+              ],
+            "id": "sqlserver"
+        },
+        "mysql": {
+            "name": "MySQL",
+            "progress": "70",
+            "frameworks": [],
+            "experiences": [
+                "Vaig mantenir i consultar PHP per a la gestió de MySQL des de la UI, així com l'ús de procediments, disparadors, CRUD i connexió amb altres llenguatges."
+            ],
+            "id": "mysql"
+        },
+        "mongodb": {
+            "name": "MongoDB",
+            "progress": "20",
+            "frameworks": [],
+            "experiences": [
+                "Vaig aprendre la base de MongoDB i la vaig utilitzar des del terminal, però no tinc experiència laboral en aquest àmbit."
+            ],
+            "id": "mongodb"
+        },
+        "php": {
+            "name": "PHP",
+            "progress": "20",
+            "frameworks": [
+                "WordPress"
+            ],
+            "experiences": [
+                "Vaig migrar una pàgina web de PHP 5.3 a PHP 8.1 i vaig fer les actualitzacions corresponents.",
+                "Vaig treballar en el manteniment i les consultes en PHP per a la gestió de MySQL des de la UI."
+            ],
+            "id": "php"
+        },
+        "htmlcss": {
+            "name": "HTML & CSS",
+            "progress": "90",
+            "frameworks": [],
+            "experiences": [
+                "Vaig desenvolupar projectes en HTML/5, CSS/3 i SCSS, amb animacions, transformacions i transicions."
+            ],
+            "id": "htmlcss"
+        },
+        "batch": {
+            "name": "Batch Scripting",
+            "progress": "60",
+            "frameworks": [],
+            "experiences": [
+                "Automatització d'instal·lacions i enllaços de certificats SSL en IIS, així com instal·lació de programes de forma automatitzada."
+            ],
+            "id": "batch"
+        }
+    },
+    "workingexperiences": {
+        "experience1": {
+            "startingYear": 2018,
+            "finishYear": 2018,
+            "startingMonth": "Jul.",
+            "finishMonth": "Ago.",
+            "nombrePuesto": "Teleoperador",
+            "empresa": "Konecta",
+            "texto": "",
+            "experiences": [
+                "Atenció al client resolent i derivant problemes.",
+                "Aprenentatge de l'anàlisi de situacions i habilitats de comunicació."
+            ]
+        },
+        "experiencia2": {
+            "startingYear": 2018,
+            "finishYear": 2019,
+            "startingMonth": "Ago.",
+            "finishMonth": "Gen.",
+            "nombrePuesto": "Auxiliar de seguretat",
+            "empresa": "IMAN Corp.",
+            "texto": "",
+            "experiences": [
+                "Responsabilitat en la seguretat d'edificis d'oficines.",
+                "Resolució d'incidències i atenció a visitants."
+            ]
+        },
+        "experiencia3": {
+            "startingYear": 2018,
+            "finishYear": 2023,
+            "startingMonth": "Des.",
+            "finishMonth": "Ago.",
+            "nombrePuesto": "Auxiliar de seguretat",
+            "empresa": "Barna Porters",
+            "experiences": [
+                "Maneig de trànsit i seguretat en esdeveniments esportius.",
+                "Anàlisi i maneig de situacions estressants."
+            ]
+        },
+        "experiencia4": {
+            "startingYear": 2020,
+            "finishYear": 2020,
+            "startingMonth": "Gen.",
+            "finishMonth": "Jun.",
+            "nombrePuesto": "Tècnic informàtic",
+            "empresa": "MovilClinic",
+            "experiences": [
+                "Atenció al client presencial i reparació de dispositius.",
+                "Registre i seguiment de reparacions mitjançant ERP."
+            ]
+        },
+        "experiencia5": {
+            "startingYear": 2022,
+            "finishYear": 0,
+            "startingMonth": "Jun.",
+            "finishMonth": "Actualment",
+            "nombrePuesto": "Desenvolupador Full-Stack Jr.",
+            "empresa": "Qontinuum Plus SL",
+            "experiences": [
+                "Desenvolupament d'aplicació Android per al control d'accés.",
+                "Desenvolupament d'ERP web amb TypeScript i Angular.",
+                "Implementació de sistemes de seguretat, certificats SSL.",
+                "Desenvolupament de pàgines web per a auto-registre de visitants i accés.",
+                "Millores en aplicacions existents, migració de PHP i solució de pàgines web."
+            ]
+        }
+    },
+    "labels": {
+        "home": "Inici",
+        "education": "Estudis",
+        "workingExperience": "Experiència laboral",
+        "programmingExperience": "Experiència en programació",
+        "CV": "Currículum",
+        "downloadCV": "Descarregar CV",
+        "seeHere": "Veure aquí",
+        "intro": "Desenvolupador Full StacK",
+        "infoText":"Aquesta pàgina ha sigut creada amb Angular",
+        "search": "Cerca"
+    }
+}
