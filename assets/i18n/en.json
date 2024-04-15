@@ -212,8 +212,8 @@
         "experiencia3": {
             "startingYear": 2018,
             "finishYear": 2023,
-            "startingMonth": "Aug",
-            "finishMonth": "Jan",
+            "startingMonth": "Mar",
+            "finishMonth": "Aug",
             "nombrePuesto": "Security Assistant",
             "empresa": "Barna Porters",
             "experiences": [
