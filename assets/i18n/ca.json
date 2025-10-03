@@ -235,8 +235,27 @@
             "progress": "70",
             "frameworks": [],
             "experiences": [
-                "Realitzo manteniment i actualitzacions regulars a SQL Server per garantir el seu correcte funcionament i seguretat.",
-                "Vaig aprendre a treballar amb SQL Server durant els meus estudis de programació i des de llavors l'he utilitzat com a base de dades principal en totes les aplicacions en les quals treballo."
+                "Realitzo manteniment regular i actualitzacions en SQL Server per garantir el seu correcte funcionament i seguretat.",
+                "Vaig aprendre a treballar amb SQL Server durant els meus estudis de programació i des de llavors l'he utilitzat com a base de dades principal en totes les aplicacions en què treballo."
+            ],
+            "tecnologias": [
+                "SQL Server",
+                "Manteniment de bases de dades",
+                "Consultes SQL",
+                "Optimització de consultes",
+                "Seguretat de bases de dades"
+            ],
+            "funcionalidades": [
+                "Manteniment i actualització de bases de dades SQL Server.",
+                "Optimització de consultes i procediments emmagatzemats.",
+                "Gestió de seguretat i permisos d'usuaris.",
+                "Ús de SQL Server com a base de dades principal en aplicacions."
+            ],
+            "responsabilidades": [
+                "Garantir el correcte funcionament i seguretat de les bases de dades.",
+                "Desenvolupar i optimitzar consultes i procediments emmagatzemats.",
+                "Administrar permisos i rols d'usuari.",
+                "Integració de SQL Server amb aplicacions i sistemes existents."
             ],
             "id": "sqlserver"
         },
@@ -245,7 +264,26 @@
             "progress": "70",
             "frameworks": [],
             "experiences": [
-                "Vaig mantenir i consultar PHP per a la gestió de MySQL des de la UI, així com l'ús de procediments, disparadors, CRUD i connexió amb altres llenguatges."
+                "Vaig realitzar el manteniment i les consultes en PHP per a la gestió de MySQL des de la UI, així com l'ús de procedures, triggers, CRUD i connexió amb PHP."
+            ],
+            "tecnologias": [
+                "MySQL",
+                "Procedures i triggers",
+                "CRUD",
+                "Optimització de consultes",
+                "Integració amb PHP"
+            ],
+            "funcionalidades": [
+                "Manteniment i optimització de bases de dades MySQL.",
+                "Creació i gestió de procedures i triggers.",
+                "Implementació d'operacions CRUD a la base de dades.",
+                "Integració de MySQL amb aplicacions desenvolupades en PHP."
+            ],
+            "responsabilidades": [
+                "Gestió de bases de dades MySQL.",
+                "Optimització i creació de consultes complexes.",
+                "Desenvolupament de procediments emmagatzemats i triggers.",
+                "Assegurar la correcta integració de la base de dades."
             ],
             "id": "mysql"
         },
@@ -255,9 +293,24 @@
             "frameworks": [
                 "WordPress"
             ],
-            "experiences": [
-                "Vaig migrar una pàgina web de PHP 5.3 a PHP 8.1 i vaig fer les actualitzacions corresponents.",
-                "Vaig treballar en el manteniment i les consultes en PHP per a la gestió de MySQL des de la UI."
+            "tecnologias": [
+                "PHP 5.3 - 8.1",
+                "MySQL",
+                "Consultes i optimització de bases de dades",
+                "Manteniment de codi antic",
+                "Actualització de llibreries i dependències"
+            ],
+            "funcionalidades": [
+                "Actualització de codi i llibreries per a compatibilitat amb PHP 8.1.",
+                "Optimització de consultes MySQL per millorar el rendiment.",
+                "Manteniment de la interacció entre la UI i la base de dades.",
+                "Resolució d'errors i adaptació de funcions obsoletes."
+            ],
+            "responsabilidades": [
+                "Migració de versions antigues de PHP a versions modernes.",
+                "Manteniment i desenvolupament de codi PHP per a la gestió de dades.",
+                "Integració de PHP amb bases de dades MySQL.",
+                "Millora de l'estabilitat i rendiment de l'aplicació web."
             ],
             "id": "php"
         },
@@ -265,8 +318,24 @@
             "name": "HTML & CSS",
             "progress": "90",
             "frameworks": [],
-            "experiences": [
-                "Vaig desenvolupar projectes en HTML/5, CSS/3 i SCSS, amb animacions, transformacions i transicions."
+            "tecnologias": [
+                "HTML5 i CSS3",
+                "Sass (variables, mixins, keyframes)",
+                "Angular (ngFor, bindings dinàmics)",
+                "Bootstrap i Angular Material"
+            ],
+            "funcionalidades": [
+                "Creació d'interfícies responsives i adaptables a diferents dispositius.",
+                "Modificació d'estils de components de llibreries tancades mitjançant :ng-deep i TypeScript.",
+                "Ús de variables i keyframes en Sass per a animacions i personalització d'estils.",
+                "Implementació de contingut dinàmic mitjançant directrius d'Angular (ngFor, ngIf, bindings).",
+                "Integració de grids avançades i taules interactives amb AG Grid."
+            ],
+            "responsabilidades": [
+                "Desenvolupament de vistes i components HTML/CSS dins d'aplicacions Angular.",
+                "Optimització d'interfícies mitjançant tècniques de responsive design i Sass.",
+                "Integració i personalització de llibreries externes d'UI.",
+                "Creació d'animacions i estils dinàmics per millorar l'experiència d'usuari."
             ],
             "id": "htmlcss"
         },

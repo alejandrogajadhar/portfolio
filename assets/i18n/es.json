@@ -269,6 +269,25 @@
                 "Realizo mantenimiento regular y actualizaciones en SQL Server para garantizar su correcto funcionamiento y seguridad.",
                 "Aprendí a trabajar con SQL Server durante mis estudios de programación y desde entonces lo he utilizado como la base de datos principal en todas las aplicaciones en las que trabajo."
             ],
+            "tecnologias": [
+                "SQL Server",
+                "Mantenimiento de bases de datos",
+                "Consultas SQL",
+                "Optimización de consultas",
+                "Seguridad de bases de datos"
+            ],
+            "funcionalidades": [
+                "Mantenimiento y actualización de bases de datos SQL Server.",
+                "Optimización de consultas y procedimientos almacenados.",
+                "Gestión de seguridad y permisos de usuarios.",
+                "Uso de SQL Server como base de datos principal en aplicaciones."
+            ],
+            "responsabilidades": [
+                "Garantizar el correcto funcionamiento y seguridad de las bases de datos.",
+                "Desarrollar y optimizar consultas y procedimientos almacenados.",
+                "Administrar permisos y roles de usuario.",
+                "Integración de SQL Server con aplicaciones y sistemas existentes."
+            ],
             "id": "sqlserver"
         },
         "mysql": {
@@ -276,22 +295,55 @@
             "progress": "70",
             "frameworks": [],
             "experiences": [
-                "Realicé el mantenimiento y las queries en PHP para la gestión de MySQL desde UI, así como el uso de procedures, triggers, CRUD y conexión con otros lenguajes."
+                "Realicé el mantenimiento y las queries en PHP para la gestión de MySQL desde UI, así como el uso de procedures, triggers, CRUD y conexión con PHP."
             ],
-            "tecnologias": [],
-            "funcionalidades": [],
-            "responsabilidades": [],
+            "tecnologias": [
+                "MySQL",
+                "Procedures y triggers",
+                "CRUD",
+                "Optimización de queries",
+                "Integración con PHP"
+            ],
+            "funcionalidades": [
+                "Mantenimiento y optimización de bases de datos MySQL.",
+                "Creación y gestión de procedures y triggers.",
+                "Implementación de operaciones CRUD en la base de datos.",
+                "Integración de MySQL con aplicaciones desarrolladas en PHP"
+            ],
+            "responsabilidades": [
+                "Gestión de bases de datos MySQL.",
+                "Optimización y creación de queries complejas.",
+                "Desarrollo de procedimientos almacenados y triggers.",
+                "Asegurar la correcta integración de la base de datos"
+            ],
             "id": "mysql"
         },
         "php": {
             "name": "PHP",
             "progress": "20",
-            "frameworks": [
-                "WordPress"
-            ],
+            "frameworks": [],
             "experiences": [
                 "Migré una página web de PHP 5.3 a PHP 8.1 y realicé actualizaciones correspondientes.",
                 "Trabajé en el mantenimiento y las queries en PHP para la gestión de MySQL desde UI."
+            ],
+            "tecnologias": [
+                "PHP 5.3 - 8.1",
+                "MySQL",
+                "Queries y optimización de bases de datos",
+                "Mantenimiento de código legado",
+                "Actualización de librerías y dependencias"
+            ],
+            "funcionalidades": [
+                "Actualización de código y librerías para compatibilidad con PHP 8.1.",
+                "Optimización de consultas MySQL para mejorar rendimiento.",
+                "Mantenimiento de la interacción entre la UI y la base de datos.",
+                "Resolución de errores y adaptación de funciones obsoletas."
+            ],
+            "responsabilidades": [
+                "Migración de versiones antiguas de PHP a versiones modernas.",
+                "Mantenimiento y desarrollo de código PHP para la gestión de datos.",
+                "Integración de PHP con bases de datos MySQL.",
+                "Mejora de la estabilidad y rendimiento de la aplicación web."
             ],
             "id": "php"
         },
@@ -300,11 +352,27 @@
             "progress": "90",
             "frameworks": [],
             "experiences": [
-                "Desarrollé proyectos en HTML/5, CSS/3 y SCSS, con animaciones, transformaciones y transiciones."
+                "Desarrollo de páginas web de control de accesos y presencia dentro de proyectos Angular, utilizando HTML y CSS avanzados. Implementación de interfaces dinámicas con ngFor, integración de librerías como Angular Material, Bootstrap y AG Grid, y adaptaciones responsivas mediante Sass y keyframes."
             ],
-            "tecnologias": [],
-            "funcionalidades": [],
-            "responsabilidades": [],
+            "tecnologias": [
+                "HTML5 y CSS3",
+                "Sass (variables, mixins, keyframes)",
+                "Angular (ngFor, bindings dinámicos)",
+                "Bootstrap y Angular Material"
+            ],
+            "funcionalidades": [
+                "Creación de interfaces responsivas y adaptables a diferentes dispositivos.",
+                "Modificación de estilos de componentes de librerías cerradas mediante :ng-deep y TypeScript.",
+                "Uso de variables y keyframes en Sass para animaciones y personalización de estilos.",
+                "Implementación de contenido dinámico mediante directivas de Angular (ngFor, ngIf, bindings).",
+                "Integración de grids avanzadas y tablas interactivas con AG Grid."
+            ],
+            "responsabilidades": [
+                "Desarrollo de vistas y componentes HTML/CSS dentro de aplicaciones Angular.",
+                "Optimización de interfaces mediante técnicas de responsive design y Sass.",
+                "Integración y personalización de librerías externas de UI.",
+                "Creación de animaciones y estilos dinámicos para mejorar la experiencia de usuario."
+            ],
             "id": "htmlcss"
         },
         "batch": {

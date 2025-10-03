@@ -58,8 +58,7 @@
     ],
     "aboutme": {
         "title": "Who am I?",
-        "text": 
-        "Hello! I am a passionate full stack developer with experience in multiplatform applications and microcomputer and network systems. I have worked with cutting-edge technologies such as TypeScript (Angular, Node.js), JavaScript, ASP.NET, PHP, .NET Framework, and C#, developing web, desktop, and API applications that integrate systems efficiently. My experience includes SQL Server database design and management, application optimization, and complex problem-solving, always aiming for robust and scalable solutions. I have participated in projects that improve internal processes, increase efficiency, and facilitate system integration. Throughout my career, I have developed not only strong technical skills but also an analytical mindset and a problem-solving focus. I am constantly seeking new challenges and opportunities to add value to innovative projects. I am ready to collaborate on your next project and take it to the next level!",
+        "text": "Hello! I am a passionate full stack developer with experience in multiplatform applications and microcomputer and network systems. I have worked with cutting-edge technologies such as TypeScript (Angular, Node.js), JavaScript, ASP.NET, PHP, .NET Framework, and C#, developing web, desktop, and API applications that integrate systems efficiently. My experience includes SQL Server database design and management, application optimization, and complex problem-solving, always aiming for robust and scalable solutions. I have participated in projects that improve internal processes, increase efficiency, and facilitate system integration. Throughout my career, I have developed not only strong technical skills but also an analytical mindset and a problem-solving focus. I am constantly seeking new challenges and opportunities to add value to innovative projects. I am ready to collaborate on your next project and take it to the next level!",
         "introExperiencias": "I have accumulated valuable experience as a programmer, starting with a multidisciplinary approach that has allowed me not only to master technical skills but also to develop an analytical mindset and an ability to solve problems efficiently.",
         "verexperiencias": "See my work experiences >>"
     },
@@ -236,8 +235,27 @@
             "progress": "70",
             "frameworks": [],
             "experiences": [
-                "I perform regular maintenance and updates on SQL Server to ensure its proper operation and security.",
-                "I learned to work with SQL Server during my programming studies and have since used it as the main database in all the applications I work on."
+                "Perform regular maintenance and updates in SQL Server to ensure proper functionality and security.",
+                "Learned to work with SQL Server during my programming studies and have since used it as the main database in all the applications I work on."
+            ],
+            "tecnologias": [
+                "SQL Server",
+                "Database maintenance",
+                "SQL queries",
+                "Query optimization",
+                "Database security"
+            ],
+            "funcionalidades": [
+                "Maintenance and updating of SQL Server databases.",
+                "Optimization of queries and stored procedures.",
+                "Management of user security and permissions.",
+                "Use of SQL Server as the primary database in applications."
+            ],
+            "responsabilidades": [
+                "Ensure proper functioning and security of databases.",
+                "Develop and optimize queries and stored procedures.",
+                "Administer user permissions and roles.",
+                "Integrate SQL Server with existing applications and systems."
             ],
             "id": "sqlserver"
         },
@@ -246,7 +264,26 @@
             "progress": "70",
             "frameworks": [],
             "experiences": [
-                "I maintained and queried PHP for MySQL management from UI, as well as the use of procedures, triggers, CRUD, and connection with other languages."
+                "Performed maintenance and PHP queries for MySQL management from the UI, including the use of procedures, triggers, CRUD operations, and integration with PHP."
+            ],
+            "tecnologias": [
+                "MySQL",
+                "Procedures and triggers",
+                "CRUD",
+                "Query optimization",
+                "Integration with PHP"
+            ],
+            "funcionalidades": [
+                "Maintenance and optimization of MySQL databases.",
+                "Creation and management of procedures and triggers.",
+                "Implementation of CRUD operations in the database.",
+                "Integration of MySQL with applications developed in PHP."
+            ],
+            "responsabilidades": [
+                "Management of MySQL databases.",
+                "Optimization and creation of complex queries.",
+                "Development of stored procedures and triggers.",
+                "Ensure correct database integration."
             ],
             "id": "mysql"
         },
@@ -257,8 +294,27 @@
                 "WordPress"
             ],
             "experiences": [
-                "I migrated a website from PHP 5.3 to PHP 8.1 and made corresponding updates.",
-                "I worked on maintenance and queries in PHP for MySQL management from UI."
+                "Migrated a website from PHP 5.3 to PHP 8.1 and performed the corresponding updates.",
+                "Worked on maintenance and PHP queries for managing MySQL from the UI."
+            ],
+            "tecnologias": [
+                "PHP 5.3 - 8.1",
+                "MySQL",
+                "Queries and database optimization",
+                "Legacy code maintenance",
+                "Library and dependency updates"
+            ],
+            "funcionalidades": [
+                "Updated code and libraries for compatibility with PHP 8.1.",
+                "Optimized MySQL queries to improve performance.",
+                "Maintained interaction between the UI and the database.",
+                "Resolved errors and adapted deprecated functions."
+            ],
+            "responsabilidades": [
+                "Migration from old PHP versions to modern versions.",
+                "Maintenance and development of PHP code for data management.",
+                "Integration of PHP with MySQL databases.",
+                "Improvement of application stability and performance."
             ],
             "id": "php"
         },
@@ -266,8 +322,24 @@
             "name": "HTML & CSS",
             "progress": "90",
             "frameworks": [],
-            "experiences": [
-                "I developed projects in HTML/5, CSS/3, and SCSS, with animations, transformations, and transitions."
+            "tecnologias": [
+                "HTML5 and CSS3",
+                "Sass (variables, mixins, keyframes)",
+                "Angular (ngFor, dynamic bindings)",
+                "Bootstrap and Angular Material"
+            ],
+            "funcionalidades": [
+                "Creation of responsive interfaces adaptable to different devices.",
+                "Modification of styles for closed library components using :ng-deep and TypeScript.",
+                "Use of variables and keyframes in Sass for animations and style customization.",
+                "Implementation of dynamic content using Angular directives (ngFor, ngIf, bindings).",
+                "Integration of advanced grids and interactive tables with AG Grid."
+            ],
+            "responsabilidades": [
+                "Development of HTML/CSS views and components within Angular applications.",
+                "Optimization of interfaces using responsive design techniques and Sass.",
+                "Integration and customization of external UI libraries.",
+                "Creation of dynamic animations and styles to improve user experience."
             ],
             "id": "htmlcss"
         },
