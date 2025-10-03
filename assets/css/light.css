@@ -1,0 +1,108 @@
+/* 
+Aplicación:
+Navbar y footer: Azul oscuro
+Fondo claro: Gris claro
+Botones primarios: Cian
+Botones secundarios y hover: Verde lima
+Tags ovalados: Cian con texto blanco o gris medio
+Modo oscuro: Invierte fondo a azul oscuro, texto en gris claro */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+/* El footer siempre al fondo */
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+:root {
+  --azuloscuro: #1e90ff;
+  --cian: #ffffff;
+  --grisclaro: #F9FAFB;
+  --grisomedio: #D1D5DB;
+  --verdelima: #A7F3D0;
+  --negro: black;
+}
+
+body {
+  background-color: var(grisclaro);
+  color: #000000;
+}
+
+.dropdown-menu {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* .center {
+  background-color: #f8f9fa;
+  display: flex;
+      height: 100%;
+  justify-content: center;
+  padding-bottom: 100px; /* 
+} */
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+  /* justify-content
+Aligns flex items along the main axis of the current line of the flex container.
+Learn more
+
+Don't show
+: space-between; */
+  height: fit-content;
+  /* width: 90%; */
+  background-color: #f8f9fa;
+  /* border: 1px solid rgb(191, 9, 9); */
+  /* box-shadow: 2px 2px 8px 4px #d3d3d3d1; */
+  border-radius: 15px;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+h2,
+p {
+  color: black;
+}
+
+
+
+/* :root .btn-light{
+        background-color: #273444 !important ;
+} */
+/* ::ng-deep .scrollTop{
+    border: 1px solid black !important;
+   } */
+
+
+.scroll-to-top {
+  bottom: 0;
+  cursor: pointer;
+  margin: 0 8px 12px 0;
+  position: fixed;
+  right: 0;
+  opacity: 0;
+  color: black;
+}
+
+:host ::ng-deep ul {
+  padding-top: 5%;
+  color: white;
+  list-style: none;
+
+}

@@ -58,68 +58,206 @@
     ],
     "aboutme": {
         "title": "¿Quién soy?",
-        "text": "¡Hola! Soy un apasionado desarrollador full stack con una sólida formación en desarrollo de aplicaciones multiplataforma y sistemas microinformáticos y redes. A lo largo de mi carrera, he adquirido una amplia experiencia en diversos lenguajes y tecnologías, lo que me ha permitido diseñar, mejorar y solucionar problemas en una variedad de proyectos. \n \nEn el ámbito del desarrollo web, he trabajado con tecnologías punteras como TypeScript en Angular y Node.js con JavaScript, donde he desarrollado tanto el frontend como el backend de aplicaciones web complejas. También tengo experiencia en el uso de ASP.NET y PHP para crear soluciones web robustas y escalables. \n \nAdemás, he incursionado en el desarrollo de aplicaciones de escritorio utilizando .NET Framework y C#, brindando soluciones personalizadas y eficientes para diversas necesidades empresariales. Asimismo, he desarrollado APIs utilizando estas mismas tecnologías para facilitar la integración entre diferentes sistemas. \n \nMi experiencia también abarca el manejo de bases de datos, especialmente en entornos SQL Server, donde he diseñado y gestionado bases de datos eficientes y seguras para respaldar aplicaciones web y de escritorio. \n \nEstoy constantemente buscando desafíos emocionantes y oportunidades para expandir mis habilidades mientras contribuyo al éxito de proyectos innovadores. ¡Espero poder colaborar contigo en tu próximo proyecto!",
+        "text": "¡Hola! Soy un desarrollador full stack apasionado con experiencia en aplicaciones multiplataforma y sistemas microinformáticos y de redes. He trabajado con tecnologías punteras como TypeScript (Angular, Node.js), JavaScript, ASP.NET, PHP, .NET Framework y C#, desarrollando aplicaciones web, de escritorio y APIs que integran sistemas de manera eficiente. Mi experiencia incluye diseño y gestión de bases de datos SQL Server, optimización de aplicaciones y resolución de problemas complejos, siempre buscando soluciones robustas y escalables. He participado en proyectos que mejoran procesos internos, incrementan la eficiencia y facilitan la interacción entre sistemas. A lo largo de mi carrera, he desarrollado no solo habilidades técnicas sólidas, sino también una mentalidad analítica y enfoque en la resolución de problemas. Estoy constantemente buscando nuevos desafíos y oportunidades para aportar valor en proyectos innovadores. ¡Estoy listo para colaborar en tu próximo proyecto y llevarlo al siguiente nivel!",
         "introExperiencias": "He acumulado una valiosa experiencia como programador, comenzando con un enfoque multidisciplinario que me ha permitido no solo dominar habilidades técnicas, sino también desarrollar una mentalidad analítica y una capacidad para resolver problemas de manera eficiente.",
         "verexperiencias": "Ver mis experiencias laborales >>"
     },
     "languages": {
         "angular": {
-            "name": "TypeScript",
+            "name": "Typescript",
             "progress": "90",
             "frameworks": [
-                "Angular"
+                {
+                    "id": "angular",
+                    "nombre": "Angular"
+                }
             ],
             "experiences": [
-                "Creé un ERP web desde cero utilizando Angular y programación reactiva.",
-                "Realicé llamadas a una API en .NET, lectura de tarjetas NFC, y creación de PDFs dinámicos a partir de datos XML.",
-                "Implementé reconocimiento facial en fotografías, encriptaciones varias, y uso de local y session storage."
+                "Desarrollo integral de una aplicación Angular modular y altamente personalizada para la gestión de control de acceso físico. La solución combina tecnologías web modernas con integración directa de hardware cliente, ofreciendo autenticación multifactor, comunicación en tiempo real (mediante Socket.IO, WebSocket y SignalR) y generación de documentación personalizada. Además, se implementaron certificados SSL para garantizar la seguridad de las comunicaciones."
+            ],
+            "tecnologias": [
+                "RxJS (programación reactiva avanzada)",
+                "Socket.IO / WebSocket / SignalR (comunicación en tiempo real con middleware propio)",
+                "CryptoJS / Web Crypto API (AES-128, AES-256 y XOR)",
+                "LocalStorage / SessionStorage (persistencia en cliente)",
+                "WebUSB / WebHID (lectura de tarjetas NFC vía USB sin librerías externas)",
+                "i18n dinámico con JSON (traducciones cargadas en runtime)",
+                "DOM API directo (manipulación manual para integración con librerías heredadas)",
+                "JavaScript legacy (sin módulos ni typings)",
+                "Generación de PDFs (a partir de datos XML)",
+                "Reconocimiento facial (mediante librerías externas en navegador)",
+                "SCSS y CSS (estilos personalizados)",
+                "Certificados SSL (configuración y despliegue para asegurar la comunicación)",
+                "Consumo de API (obtención y envío de datos)"
+            ],
+            "funcionalidades": [
+                "Captura y análisis de fotografías para reconocimiento facial local usando librerías externas.",
+                "Lectura NFC por USB sin librerías externas utilizando APIs nativas del navegador (WebUSB/WebHID).",
+                "Generación de PDFs personalizados a partir de datos XML.",
+                "Comunicación bidireccional en tiempo real con middleware propio mediante sockets (Socket.IO, SignalR).",
+                "Consumo de APIs REST externas para validación y sincronización.",
+                "Arquitectura 100% reactiva con RxJS.",
+                "Almacenamiento de sesión y datos temporales en LocalStorage/SessionStorage.",
+                "Cifrado en cliente con AES-128, AES-256 y XOR.",
+                "Soporte multilenguaje mediante archivos JSON dinámicos.",
+                "Integración de JavaScript legacy con manipulación directa del DOM.",
+                "Estilado de componentes con SCSS y CSS personalizados.",
+                "Implementación de SSL para proteger las comunicaciones y prevenir ataques de intermediario (MITM)."
+            ],
+            "responsabilidades": [
+                "Diseño y desarrollo de la arquitectura de microcomponentes en Angular.",
+                "Integración con hardware NFC/USB sin librerías externas.",
+                "Implementación de reconocimiento facial optimizado para ejecución en cliente.",
+                "Creación de flujos reactivos con RxJS para manejo de estado y eventos.",
+                "Integración de comunicación en tiempo real con Socket.IO, WebSocket y SignalR.",
+                "Desarrollo de lógica de cifrado y gestión segura de datos en cliente.",
+                "Implementación de pipelines para generación de PDFs desde XML.",
+                "Configuración de soporte multilenguaje e integración de librerías JS heredadas.",
+                "Configuración y despliegue de certificados SSL para el entorno de producción.",
+                "Aplicación de SCSS/CSS para un diseño adaptable y mantenible."
             ],
             "id": "angular"
         },
-        "node": {
+        "javascript": {
             "name": "Javascript",
             "progress": "70",
             "frameworks": [
-                "Node.js"
+                {
+                    "id": "Node",
+                    "nombre": "Node.js"
+                }
             ],
             "experiences": [
-                "Desarrollé un middleware en Express para controlar operadores conectados en una página web, alojado en IIS.",
-                "Actuaba como puente para órdenes directas desde el servidor a operadores con sesión iniciada.",
-                "Inhabilitaba la página web si alguno de los servidores estaba inactivo y notificaba a los operadores para una localización de fallos eficiente.",
-                "Cargaba traducciones de labels y mensajes desde archivos Access en varios idiomas."
+                "Desarrollo de un servidor Node.js que funcionaba como gateway en tiempo real entre una aplicación Angular (SPA alojada en IIS) y un backend empresarial en .NET. \nEl servidor gestionaba el estado de usuarios activos, retransmitía eventos entre Angular y .NET, y proporcionaba traducciones dinámicas para el sistema multilenguaje."
             ],
-            "id": "node"
-        },
-        "java": {
-            "name": "Java",
-            "progress": "70",
-            "frameworks": [],
-            "experiences": [
-                "Aprendí las bases de la programación con Java utilizando muchas tecnologías que a dia de hoy aplico en otros lenguajes, incluyendo conexiones con MySQL y SQLServer, pero no tengo experiencia laboral en este lenguaje."
+            "tecnologias": [
+                "Node.js y Express.js",
+                "Socket.IO (conexión en tiempo real con Angular)",
+                "Sockets TCP (.NET Sockets) para comunicación con backend en .NET",
+                "IIS como servidor de hosting para Angular y Node.js",
+                "fs (manejo de archivos y generación de JSON para i18n)",
+                "HTTPS/SSL (comunicaciones seguras entre Node.js, Angular y .NET)"
             ],
-            "id": "java"
+            "funcionalidades": [
+                "Recepción de eventos desde el backend .NET mediante sockets TCP seguros.",
+                "Emisión en tiempo real hacia Angular con Socket.IO:",
+                {
+                    "Emisión en tiempo real hacia Angular con Socket.IO": [
+                        "Expulsión de usuarios",
+                        "Cierre automático de sesión (timeout de inactividad)",
+                        "Notificaciones automáticas tipo push"
+                    ]
+                },
+                "Procesamiento de eventos desde Angular y retransmisión al backend .NET.",
+                "Conversión de traducciones desde Access → JSON para integrarlas en el sistema de i18n de Angular (español, catalán, inglés).",
+                "Configuración de SSL en Node.js para garantizar seguridad extremo a extremo."
+            ],
+            "responsabilidades": [
+                "Implementación de un servidor Node.js orientado a eventos.",
+                "Diseño de la capa de comunicación bidireccional entre Angular y .NET.",
+                "Integración de Socket.IO en Angular para control de sesión y notificaciones.",
+                "Gestión de usuarios conectados y sincronización con backend .NET.",
+                "Desarrollo de scripts de automatización para i18n (traducciones a JSON).",
+                "Configuración de HTTPS/SSL y coordinación de certificados entre sistemas.",
+                "Despliegue y configuración conjunta en IIS con la SPA Angular."
+            ],
+            "id": "javascript"
         },
-        "csharp": {
-            "name": "C#",
+        "netframework": {
+            "name": ".NET Framework",
             "progress": "80",
             "frameworks": [
                 ".NET Framework 4.8"
             ],
             "experiences": [
-                "Participo en un proyecto principal de un ERP para escritorio, donde trabajé en el envío de correos masivos, reconocimiento facial en fotografías, y mejoras de rendimiento.",
-                "Desarrollé una RestAPI desde cero en .NET y participé en actualizaciones de código de una página web interna en ASP.NET."
+                "Diseñé y desarrollé un ecosistema distribuido en .NET para la gestión de control de acceso físico, con múltiples servidores y programas conectados entre sí y con aplicaciones móviles/escritorio. El sistema integraba autenticación multifactor (NFC, QR, huella dactilar, reconocimiento facial), gestión centralizada de usuarios y permisos, y sincronización en tiempo real con dispositivos de hardware.",
+                "El servidor principal actuaba como núcleo de comunicación, gestionando menús y llamadas asíncronas, y enviando/recibiendo paquetes cifrados con XOR o AES. Los servidores secundarios extendían funcionalidades específicas, y un servidor de distribución se encargaba de enviar datos y fotografías a dispositivos seleccionados. Toda la comunicación se realizaba en forma de paquetes binarios estructurados (tipo de protocolo, origen, tipo de cifrado), con CRC16/CRC32 para garantizar integridad.",
+                "La aplicación principal de escritorio permitía el registro de trabajadores, visitantes y contratistas, así como la gestión de centros, plantas, departamentos y permisos de acceso. Dependiendo de la configuración, la información se propagaba automáticamente a los dispositivos conectados vía sockets o de forma manual desde la aplicación.",
+                "Un servidor de API exponía endpoints (Service.cs, Program.cs, Startup.cs) para consumo por aplicaciones Angular, Ionic y Android Studio, utilizando SignalR para sincronización en tiempo real. El reconocimiento facial se implementó mediante OpenCV y otras librerías de terceros, y la mensajería offline se gestionaba mediante un broker MQTT propietario, capaz de enviar notificaciones cifradas a aplicaciones sin depender de Firebase."
             ],
-            "id": "csharp"
+            "tecnologias": [
+                ".NET Framework (desarrollo de servidores y APIs)",
+                "SQL Server (conexión directa con librería nativa de .NET y consultas SQL puras)",
+                "ADO.NET (modelo de conexión reutilizable para querys y acceso a datos)",
+                "Sockets TCP/IP (comunicación en tiempo real entre servidores y programas)",
+                "Criptografía: XOR y AES (encriptación de paquetes)",
+                "CRC16 / CRC32 (verificación de integridad en protocolos internos)",
+                "OpenCV (reconocimiento facial en fotografías)",
+                "SignalR (comunicación en tiempo real con Angular y aplicaciones web)",
+                "NuGet packages: OWIN, librerías propias del framework y terceros",
+                "MQTT (Message Broker) (mensajería offline y notificaciones en apps propias)",
+                "Ionic / Android Studio / Angular (ecosistema de clientes conectados)"
+            ],
+            "funcionalidades": [
+                "Gestión de usuarios y accesos: registro de trabajadores, visitantes y contratistas, con asignación de permisos por planta, departamento y sección.",
+                "Autenticación multifactor: NFC, QR, huella dactilar y reconocimiento facial.",
+                "Comunicación en tiempo real: envío y recepción de paquetes entre servidores y programas con sockets TCP/IP.",
+                "Paquetes binarios personalizados: con metadatos (origen, tipo de protocolo, tipo de cifrado) + CRC16/CRC32 para verificación.",
+                "Criptografía integrada: XOR y AES para asegurar las comunicaciones.",
+                "Reconocimiento facial: validación de fotografías antes de registro, garantizando compatibilidad con dispositivos biométricos.",
+                "Sincronización de datos con dispositivos Android: mediante un servidor de distribución.",
+                "API REST + SignalR: servidor de API para integración con Angular, Ionic y Android Studio.",
+                "Mensajería offline: mediante MQTT para envío de notificaciones a aplicaciones propietarias.",
+                "Modelo de acceso a datos reutilizable: conexión centralizada a SQL Server y construcción de querys desde objetos."
+            ],
+            "responsabilidades": [
+                "Diseño e implementación de la arquitectura distribuida en .NET (servidor principal, servidores secundarios, servidor de distribución y servidor de API).",
+                "Desarrollo de la aplicación de escritorio para la gestión de usuarios, permisos y accesos.",
+                "Implementación de un sistema de comunicación distribuida mediante sockets y paquetes binarios cifrados.",
+                "Creación del modelo reutilizable de acceso a SQL Server con consultas dinámicas.",
+                "Desarrollo de lógica de cifrado (AES/XOR) y validación de integridad (CRC16/CRC32).",
+                "Integración de OpenCV para reconocimiento facial.",
+                "Implementación de SignalR para comunicación en tiempo real con Angular.",
+                "Configuración de APIs en el servidor de API (Service.cs, Program.cs, Startup.cs).",
+                "Desarrollo de procesos de sincronización con dispositivos Android mediante servidor de distribución.",
+                "Implementación de MQTT como message broker para mensajería offline.",
+                "Coordinación de múltiples tecnologías (.NET, SQL, Angular, Ionic, Android) en un sistema unificado."
+            ],
+            "id": "netframework"
         },
         "javaandroid": {
-            "name": "Java (Android Studio)",
+            "name": "Android",
             "progress": "60",
             "frameworks": [
-                "Native Android",
-                "Cordova"
+                {
+                    "id": "cordova",
+                    "nombre": "Cordova"
+                },
+                {
+                    "id": "capacitor",
+                    "nombre": "Capacitor"
+                },
+                {
+                    "id": "nativeandroid",
+                    "nombre": "Native Android"
+                }
             ],
             "experiences": [
-                "Desarrollé aplicaciones con interacción con API, reconocimiento biométrico, NFC, escaneo de QR, configuración de red, encriptación de fotografías, y optimizaciones de rendimiento."
+                "Participé en el mantenimiento y mejora de un conjunto de aplicaciones Android enfocadas en control de acceso, registro de usuarios y seguridad física. Estas aplicaciones se integraban con servidores .NET y dispositivos externos, utilizando un sistema de comunicación basado en paquetes binarios encriptados y validados con CRC. El trabajo incluyó tanto corrección de errores críticos heredados como la implementación de nuevas funcionalidades clave, en áreas como reconocimiento facial en vivo, lectura y simulación de tarjetas NFC propietarias, así como mejoras en la experiencia de usuario y cumplimiento normativo en el manejo de datos sensibles."
+            ],
+            "tecnologias": [
+                "Java 11 / Java 17 (Android Studio)",
+                "Cámara Android (CameraX / Camera API nativa)",
+                "NFC (MIFARE, DESFire de NXP)",
+                "Sockets TCP (envío y recepción de paquetes binarios)",
+                "Criptografía AES / XOR / CRC16-CRC32",
+                "Integración con servidores .NET (comunicación en tiempo real)"
+            ],
+            "funcionalidades": [
+                "Integración de reconocimiento facial y QR en una única activity, eliminando limitaciones previas y mejorando la experiencia del usuario.",
+                "Corrección crítica de errores heredados (resuelto en el primer día de prácticas un bug abierto durante meses).",
+                "Implementación de cifrado en fotografías y paquetes binarios para cumplimiento legal y compatibilidad con servidores .NET.",
+                "Lectura e interpretación de código en C para integrar formatos de tarjetas NFC propietarios, adaptados a dispositivos NXP Mifare/Desfire.",
+                "Mejora de interfaces gráficas, optimización de flows en apps de vigilancia y control de presencia.",
+                "Simulación de tarjetas NFC con formato propietario en dispositivos móviles."
+            ],
+            "responsabilidades": [
+                "Diagnóstico y resolución de errores críticos heredados (incluido un bug que llevaba meses sin resolver).",
+                "Implementación de mejoras clave en la cámara para reconocimiento facial y QR en tiempo real.",
+                "Diseño e integración de procesos de encriptación de datos sensibles (fotografías, paquetes binarios).",
+                "Desarrollo de compatibilidad con formatos NFC propietarios basados en especificaciones en C.",
+                "Mejora de la experiencia de usuario mediante nuevas interfaces y simplificación de flujos.",
+                "Mantenimiento de aplicaciones existentes (actualización de librerías, corrección de errores, refactorización de código)."
             ],
             "id": "javaandroid"
         },
@@ -140,16 +278,10 @@
             "experiences": [
                 "Realicé el mantenimiento y las queries en PHP para la gestión de MySQL desde UI, así como el uso de procedures, triggers, CRUD y conexión con otros lenguajes."
             ],
+            "tecnologias": [],
+            "funcionalidades": [],
+            "responsabilidades": [],
             "id": "mysql"
-        },
-        "mongodb": {
-            "name": "MongoDB",
-            "progress": "20",
-            "frameworks": [],
-            "experiences": [
-                "Aprendí la base de MongoDB y la utilicé desde la terminal, pero no tengo experiencia laboral en este ámbito."
-            ],
-            "id": "mongodb"
         },
         "php": {
             "name": "PHP",
@@ -170,6 +302,9 @@
             "experiences": [
                 "Desarrollé proyectos en HTML/5, CSS/3 y SCSS, con animaciones, transformaciones y transiciones."
             ],
+            "tecnologias": [],
+            "funcionalidades": [],
+            "responsabilidades": [],
             "id": "htmlcss"
         },
         "batch": {
@@ -179,7 +314,48 @@
             "experiences": [
                 "Automatización de instalaciones y enlaces de certificados SSL en IIS, así como instalación de programas de forma automatizada."
             ],
+            "tecnologias": [],
+            "funcionalidades": [],
+            "responsabilidades": [],
             "id": "batch"
+        },
+        "ionic": {
+            "name": "Ionic",
+            "progress": "65",
+            "frameworks": [
+                {
+                    "id": "capacitor",
+                    "nombre": "Capacitor"
+                },
+                {
+                    "id": "Cordova",
+                    "nombre": "Cordova"
+                }
+            ],
+            "experiences": [
+                "Mantenimiento y evolución de una aplicación híbrida de control presencial para trabajadores, desplegada en Web, Android e iOS. La app permitía registrar fichajes de entrada/salida con geolocalización y hora, integrándose con APIs de backend para centralizar la información."
+            ],
+            "tecnologias": [
+                "Ionic + Angular (framework híbrido multiplataforma)",
+                "Cordova y Capacitor (plugins nativos y migración tecnológica)",
+                "TypeScript",
+                "APIs REST",
+                "Geolocalización"
+            ],
+            "funcionalidades": [
+                "Migración de Cordova a Capacitor para acceso a funciones nativas modernas.",
+                "Subida y descarga de archivos en directorios de difícil acceso en dispositivos móviles.",
+                "Implementación de geolocalización en tiempo real.",
+                "Creación de nuevas páginas y mejoras de interfaz para optimizar la experiencia de usuario.",
+                "Corrección de errores no controlados, mejorando la estabilidad en todas las plataformas."
+            ],
+            "responsabilidades": [
+                "Mantenimiento y desarrollo de la aplicación en Ionic + Angular.",
+                "Migración técnica de funcionalidades nativas de Cordova a Capacitor.",
+                "Integración con APIs REST.",
+                "Diseño y mejora de UI/UX mediante nuevas vistas y flujos de usuario."
+            ],
+            "id": "ionic"
         }
     },
     "workingexperiences": {
@@ -212,7 +388,7 @@
         "experiencia3": {
             "startingYear": 2018,
             "finishYear": 2023,
-            "startingMonth": "Mar.",
+            "startingMonth": "Dic.",
             "finishMonth": "Ago.",
             "nombrePuesto": "Auxiliar de seguridad",
             "empresa": "Barna Porters",
@@ -235,17 +411,21 @@
         },
         "experiencia5": {
             "startingYear": 2022,
-            "finishYear": 0,
+            "finishYear": 2025,
             "startingMonth": "Jun.",
-            "finishMonth": "Actualmente",
+            "finishMonth": "Abr",
             "nombrePuesto": "Desarrollador Full-Stack Jr.",
             "empresa": "Qontinuum Plus SL",
             "experiences": [
-                "Desarrollo de aplicación Android para control de accesos.",
-                "Desarrollo de ERP web con TypeScript y Angular.",
-                "Implementación de sistemas de seguridad, certificados SSL.",
-                "Desarrollo de páginas web para auto registro de visitantes y acceso.",
-                "Mejoras en aplicaciones existentes, migración de PHP y arreglos de páginas web."
+                "Desarrollé una aplicación Android para control de accesos, reduciendo en un 40% el tiempo de verificación manual.",
+                "Construí un ERP web con TypeScript y Angular, optimizando procesos de negocio en múltiples departamentos.",
+                "Implementé protocolos de seguridad e integración de certificados SSL, mejorando la fiabilidad del sistema y el cumplimiento normativo.",
+                "Entregué portales de autorregistro de visitantes y gestión de accesos, incrementando la eficiencia y reduciendo la carga administrativa.",
+                "Diseñé y desplegué aplicaciones de escritorio y APIs RESTful, facilitando la integración de sistemas y acelerando el intercambio de datos.",
+                "Optimicé aplicaciones heredadas mediante migración desde PHP y mejoras de rendimiento, reduciendo los tiempos de carga de páginas hasta un 60%.",
+                "Lideré la toma de decisiones técnicas y el análisis de causas raíz, mejorando la calidad del código y reduciendo errores recurrentes.",
+                "Automatizé el despliegue de aplicaciones y desarrollé instaladores, minimizando el tiempo de despliegue y los errores en la implementación.",
+                "Introduje nuevas tecnologías y actualicé stacks existentes, aumentando la escalabilidad y la mantenibilidad a largo plazo de los sistemas."
             ]
         }
     },
@@ -253,12 +433,17 @@
         "home": "Inicio",
         "education": "Estudios",
         "workingExperience": "Experiencia laboral",
-        "programmingExperience": "Experiencia en programación",
+        "programmingExperience": "Stack Tecnológico",
         "CV": "Curriculum",
         "downloadCV": "Descargar CV",
         "seeHere": "Ver aquí",
-        "intro": "DesarrolladorFull Stack",
+        "intro": "Desarrollador Full Stack",
         "infoText": "Esta página fue hecha en Angular.",
         "search": "Buscar"
+    },
+    "idiomas": {
+        "en": "Inglés",
+        "es": "Español",
+        "ca": "Catalán"
     }
 }

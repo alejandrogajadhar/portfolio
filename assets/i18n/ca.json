@@ -58,58 +58,165 @@
     ],
     "aboutme": {
         "title": "¿Quién sóc?",
-        "text": "¡Hola! Sóc un apassionat desenvolupador full stack amb una sòlida formació en desenvolupament d'aplicacions multiplataforma i sistemes microinformàtics i xarxes. Al llarg de la meva carrera, he adquirit una àmplia experiència en diversos llenguatges i tecnologies, el que m'ha permès dissenyar, millorar i solucionar problemes en una varietat de projectes. \n \nEn l'àmbit del desenvolupament web, he treballat amb tecnologies punteres com TypeScript en Angular i Node.js amb JavaScript, on he desenvolupat tant el frontend com el backend d'aplicacions web complexes. També tinc experiència en l'ús de ASP.NET i PHP per crear solucions web robustes i escalables. \n \nA més, m'he aventurat en el desenvolupament d'aplicacions d'escriptori utilitzant .NET Framework i C#, oferint solucions personalitzades i eficients per a diverses necessitats empresarials. També he desenvolupat APIs utilitzant aquestes mateixes tecnologies per facilitar la integració entre diferents sistemes. \n \nLa meva experiència també inclou el maneig de bases de dades, especialment en entorns SQL Server, on he dissenyat i gestionat bases de dades eficients i segures per donar suport a aplicacions web i d'escriptori. \n \nEstic constantment buscant desafiaments emocionants i oportunitats per ampliar les meves habilitats mentre contribueixo al èxit de projectes innovadors. Espero poder col·laborar amb tu en el teu proper projecte!",
+        "text": "Hola! Sóc un desenvolupador full stack apassionat amb experiència en aplicacions multiplataforma i sistemes microinformàtics i de xarxa. He treballat amb tecnologies punteres com TypeScript (Angular, Node.js), JavaScript, ASP.NET, PHP, .NET Framework i C#, desenvolupant aplicacions web, d’escriptori i APIs que integren sistemes de manera eficient. La meva experiència inclou el disseny i la gestió de bases de dades SQL Server, optimització d’aplicacions i resolució de problemes complexos, sempre buscant solucions robustes i escalables. He participat en projectes que milloren els processos interns, incrementen l’eficiència i faciliten la interacció entre sistemes. Al llarg de la meva carrera, he desenvolupat no només habilitats tècniques sòlides, sinó també una mentalitat analítica i enfocament en la resolució de problemes. Estic constantment buscant nous reptes i oportunitats per aportar valor en projectes innovadors. Estic llest per col·laborar en el teu proper projecte i portar-lo al següent nivell!",
         "introExperiencias": "He acumulat una valuosa experiència com a programador, començant amb un enfocament multidisciplinari que m'ha permès no només dominar habilitats tècniques, sinó també desenvolupar una mentalitat analítica i una capacitat per resoldre problemes de manera eficient.",
         "verexperiencias": "Veure les meves experiències laborals >>"
     },
     "languages": {
         "angular": {
-            "name": "TypeScript",
-            "progress": "80",
+            "name": "Typescript",
+            "progress": "90",
             "frameworks": [
-                "Angular"
+                {
+                    "id": "angular",
+                    "nombre": "Angular"
+                },
+                {
+                    "id": "ionic",
+                    "nombre": "Ionic"
+                }
             ],
             "experiences": [
-                "Vaig crear un ERP web des de zero utilitzant Angular i programació reactiva.",
-                "Vaig fer crides a una API en .NET, lectura de targetes NFC i creació de PDFs dinàmics a partir de dades XML.",
-                "Vaig implementar el reconeixement facial en fotografies, diverses encriptacions i ús de local i session storage."
+                "Desenvolupament integral d’una aplicació Angular modular i altament personalitzada per a la gestió de control d’accés físic. La solució combina tecnologies web modernes amb integració directa de maquinari client, oferint autenticació multifactor, comunicació en temps real (mitjançant Socket.IO, WebSocket i SignalR) i generació de documentació personalitzada. A més, es van implementar certificats SSL per garantir la seguretat de les comunicacions."
             ],
-            "id": "angular"
+            "tecnologias": [
+                "RxJS (programació reactiva avançada)",
+                "Socket.IO / WebSocket / SignalR (comunicació en temps real amb middleware propi)",
+                "CryptoJS / Web Crypto API (AES-128, AES-256 i XOR)",
+                "LocalStorage / SessionStorage (persistència al client)",
+                "WebUSB / WebHID (lectura de targetes NFC via USB sense llibreries externes)",
+                "i18n dinàmic amb JSON (traduccions carregades en runtime)",
+                "DOM API directe (manipulació manual per a integració amb llibreries heretades)",
+                "JavaScript legacy (sense mòduls ni typings)",
+                "Generació de PDFs (a partir de dades XML)",
+                "Reconeixement facial (mitjançant llibreries externes al navegador)",
+                "SCSS i CSS (estils personalitzats)",
+                "Certificats SSL (configuració i desplegament per assegurar la comunicació)",
+                "Consum d’API (obtenció i enviament de dades)"
+            ],
+            "funcionalidades": [
+                "Captura i anàlisi de fotografies per a reconeixement facial local utilitzant llibreries externes.",
+                "Lectura NFC per USB sense llibreries externes utilitzant APIs natives del navegador (WebUSB/WebHID).",
+                "Generació de PDFs personalitzats a partir de dades XML.",
+                "Comunicació bidireccional en temps real amb middleware propi mitjançant sockets (Socket.IO, SignalR).",
+                "Consum d’APIs REST externes per a validació i sincronització.",
+                "Arquitectura 100% reactiva amb RxJS.",
+                "Emmagatzematge de sessió i dades temporals en LocalStorage/SessionStorage.",
+                "Xifrat en client amb AES-128, AES-256 i XOR.",
+                "Suport multillenguatge mitjançant fitxers JSON dinàmics.",
+                "Integració de JavaScript legacy amb manipulació directa del DOM.",
+                "Estilització de components amb SCSS i CSS personalitzats.",
+                "Implementació de SSL per protegir les comunicacions i prevenir atacs d’intermediari (MITM)."
+            ],
+            "responsabilidades": [
+                "Disseny i desenvolupament de l’arquitectura de microcomponents en Angular.",
+                "Integració amb maquinari NFC/USB sense llibreries externes.",
+                "Implementació de reconeixement facial optimitzat per a execució en client.",
+                "Creació de fluxos reactius amb RxJS per a gestió d’estat i esdeveniments.",
+                "Integració de comunicació en temps real amb Socket.IO, WebSocket i SignalR.",
+                "Desenvolupament de lògica de xifrat i gestió segura de dades en client.",
+                "Implementació de pipelines per a generació de PDFs des d’XML.",
+                "Configuració de suport multillenguatge i integració de llibreries JS heretades.",
+                "Configuració i desplegament de certificats SSL per a l’entorn de producció.",
+                "Aplicació de SCSS/CSS per a un disseny adaptable i mantenible."
+            ]
         },
-        "node": {
+        "javascript": {
             "name": "Javascript",
             "progress": "70",
             "frameworks": [
-                "Node.js"
+                {
+                    "id": "Node",
+                    "nombre": "Node.js"
+                }
             ],
             "experiences": [
-                "Vaig desenvolupar un middleware en Express per controlar operadors connectats en una pàgina web, allotjat en IIS.",
-                "Actuava com a pont per a ordres directes des del servidor a operadors amb sessió iniciada.",
-                "Inhabilitava la pàgina web si algun dels servidors estava inactiu i notificava als operadors per a una localització d'errors eficient.",
-                "Carregava traduccions d'etiquetes i missatges des de fitxers Access en diversos idiomes."
+                "Desenvolupament d’un servidor Node.js que funcionava com a passarel·la en temps real entre una aplicació Angular (SPA allotjada a IIS) i un backend empresarial en .NET.\nEl servidor gestionava l’estat dels usuaris actius, retransmetia esdeveniments entre Angular i .NET, i proporcionava traduccions dinàmiques per al sistema multillenguatge."
             ],
-            "id": "node"
-        },
-        "java": {
-            "name": "Java",
-            "progress": "70",
-            "frameworks": [],
-            "experiences": [
-                "Vaig aprendre les bases de la programació amb Java utilitzant moltes tecnologies que avui dia aplico en altres llenguatges, incloent connexions amb MySQL i SQLServer, però no tinc experiència laboral en aquest llenguatge."
+            "tecnologias": [
+                "Node.js i Express.js",
+                "Socket.IO (connexió en temps real amb Angular)",
+                "Sockets TCP (.NET Sockets) per a comunicació amb backend en .NET",
+                "IIS com a servidor de hosting per a Angular i Node.js",
+                "fs (gestió d’arxius i generació de JSON per a i18n)",
+                "HTTPS/SSL (comunicacions segures entre Node.js, Angular i .NET)"
             ],
-            "id": "java"
+            "funcionalidades": [
+                "Recepció d’esdeveniments des del backend .NET mitjançant sockets TCP segurs.",
+                "Emissió en temps real cap a Angular amb Socket.IO:",
+                {
+                    "Emissió en temps real cap a Angular amb Socket.IO": [
+                        "Expulsió d’usuaris",
+                        "Tancament automàtic de sessió (timeout d’inactivitat)",
+                        "Notificacions automàtiques tipus push"
+                    ]
+                },
+                "Processament d’esdeveniments des d’Angular i retransmissió al backend .NET.",
+                "Conversió de traduccions des d’Access → JSON per integrar-les en el sistema d’i18n d’Angular (espanyol, català, anglès).",
+                "Configuració de SSL en Node.js per garantir seguretat d’extrem a extrem."
+            ],
+            "responsabilidades": [
+                "Implementació d’un servidor Node.js orientat a esdeveniments.",
+                "Disseny de la capa de comunicació bidireccional entre Angular i .NET.",
+                "Integració de Socket.IO a Angular per al control de sessió i notificacions.",
+                "Gestió d’usuaris connectats i sincronització amb backend .NET.",
+                "Desenvolupament de scripts d’automatització per a i18n (traduccions a JSON).",
+                "Configuració de HTTPS/SSL i coordinació de certificats entre sistemes.",
+                "Desplegament i configuració conjunta a IIS amb la SPA Angular."
+            ],
+            "id": "javascript"
         },
-        "csharp": {
-            "name": "C#",
+        "netframework": {
+            "name": ".NET Framework",
             "progress": "70",
             "frameworks": [
                 ".NET Framework 4.8"
             ],
             "experiences": [
-                "Participo en un projecte principal d'un ERP per a escriptori, on vaig treballar en l'enviament de correus massius, el reconeixement facial en fotografies i millores de rendiment.",
-                "Vaig desenvolupar una RestAPI des de zero en .NET i vaig participar en actualitzacions de codi d'una pàgina web interna en ASP.NET."
+                "Vaig dissenyar i desenvolupar un ecosistema distribuït en .NET per a la gestió del control d’accés físic, amb múltiples servidors i programes connectats entre si i amb aplicacions mòbils/escriptori. El sistema integrava autenticació multifactor (NFC, QR, empremta dactilar, reconeixement facial), gestió centralitzada d’usuaris i permisos, i sincronització en temps real amb dispositius de maquinari.",
+                "El servidor principal actuava com a nucli de comunicació, gestionant menús i crides asíncrones, i enviant/rebent paquets encriptats amb XOR o AES. Els servidors secundaris ampliaven funcionalitats específiques, i un servidor de distribució s’encarregava d’enviar dades i fotografies a dispositius seleccionats. Tota la comunicació es realitzava en forma de paquets binaris estructurats (tipus de protocol, origen, tipus de xifrat), amb CRC16/CRC32 per garantir la integritat.",
+                "L’aplicació principal d’escriptori permetia el registre de treballadors, visitants i contractistes, així com la gestió de centres, plantes, departaments i permisos d’accés. Depenent de la configuració, la informació es propagava automàticament als dispositius connectats via sockets o de forma manual des de l’aplicació.",
+                "Un servidor d’API exposava endpoints (Service.cs, Program.cs, Startup.cs) per al consum per aplicacions Angular, Ionic i Android Studio, utilitzant SignalR per a sincronització en temps real. El reconeixement facial es va implementar mitjançant OpenCV i altres llibreries de tercers, i la missatgeria offline es gestionava mitjançant un broker MQTT propietari, capaç d’enviar notificacions encriptades a aplicacions sense dependre de Firebase."
             ],
-            "id": "csharp"
+            "tecnologias": [
+                ".NET Framework (desenvolupament de servidors i APIs)",
+                "SQL Server (connexió directa amb llibreria nativa de .NET i consultes SQL pures)",
+                "ADO.NET (model de connexió reutilitzable per a querys i accés a dades)",
+                "Sockets TCP/IP (comunicació en temps real entre servidors i programes)",
+                "Criptografia: XOR i AES (encriptació de paquets)",
+                "CRC16 / CRC32 (verificació d’integritat en protocols interns)",
+                "OpenCV (reconeixement facial en fotografies)",
+                "SignalR (comunicació en temps real amb Angular i aplicacions web)",
+                "NuGet packages: OWIN, llibreries pròpies del framework i de tercers",
+                "MQTT (Message Broker) (missatgeria offline i notificacions en apps pròpies)",
+                "Ionic / Android Studio / Angular (ecosistema de clients connectats)"
+            ],
+            "funcionalidades": [
+                "Gestió d’usuaris i accessos: registre de treballadors, visitants i contractistes, amb assignació de permisos per planta, departament i secció.",
+                "Autenticació multifactor: NFC, QR, empremta dactilar i reconeixement facial.",
+                "Comunicació en temps real: enviament i recepció de paquets entre servidors i programes amb sockets TCP/IP.",
+                "Paquets binaris personalitzats: amb metadades (origen, tipus de protocol, tipus de xifrat) + CRC16/CRC32 per a verificació.",
+                "Criptografia integrada: XOR i AES per assegurar les comunicacions.",
+                "Reconeixement facial: validació de fotografies abans del registre, garantint compatibilitat amb dispositius biomètrics.",
+                "Sincronització de dades amb dispositius Android: mitjançant un servidor de distribució.",
+                "API REST + SignalR: servidor d’API per a integració amb Angular, Ionic i Android Studio.",
+                "Missatgeria offline: mitjançant MQTT per a enviament de notificacions a aplicacions propietàries.",
+                "Model d’accés a dades reutilitzable: connexió centralitzada a SQL Server i construcció de querys des d’objectes."
+            ],
+            "responsabilidades": [
+                "Disseny i implementació de l’arquitectura distribuïda en .NET (servidor principal, servidors secundaris, servidor de distribució i servidor d’API).",
+                "Desenvolupament de l’aplicació d’escriptori per a la gestió d’usuaris, permisos i accessos.",
+                "Implementació d’un sistema de comunicació distribuïda mitjançant sockets i paquets binaris encriptats.",
+                "Creació del model reutilitzable d’accés a SQL Server amb consultes dinàmiques.",
+                "Desenvolupament de lògica de xifrat (AES/XOR) i validació d’integritat (CRC16/CRC32).",
+                "Integració d’OpenCV per a reconeixement facial.",
+                "Implementació de SignalR per a comunicació en temps real amb Angular.",
+                "Configuració d’APIs al servidor d’API (Service.cs, Program.cs, Startup.cs).",
+                "Desenvolupament de processos de sincronització amb dispositius Android mitjançant servidor de distribució.",
+                "Implementació de MQTT com a message broker per a missatgeria offline.",
+                "Coordinació de múltiples tecnologies (.NET, SQL, Angular, Ionic, Android) en un sistema unificat."
+            ],
+            "id": "netframework"
         },
         "javaandroid": {
             "name": "Java (Android Studio)",
@@ -130,7 +237,7 @@
             "experiences": [
                 "Realitzo manteniment i actualitzacions regulars a SQL Server per garantir el seu correcte funcionament i seguretat.",
                 "Vaig aprendre a treballar amb SQL Server durant els meus estudis de programació i des de llavors l'he utilitzat com a base de dades principal en totes les aplicacions en les quals treballo."
-              ],
+            ],
             "id": "sqlserver"
         },
         "mysql": {
@@ -141,15 +248,6 @@
                 "Vaig mantenir i consultar PHP per a la gestió de MySQL des de la UI, així com l'ús de procediments, disparadors, CRUD i connexió amb altres llenguatges."
             ],
             "id": "mysql"
-        },
-        "mongodb": {
-            "name": "MongoDB",
-            "progress": "20",
-            "frameworks": [],
-            "experiences": [
-                "Vaig aprendre la base de MongoDB i la vaig utilitzar des del terminal, però no tinc experiència laboral en aquest àmbit."
-            ],
-            "id": "mongodb"
         },
         "php": {
             "name": "PHP",
@@ -180,6 +278,46 @@
                 "Automatització d'instal·lacions i enllaços de certificats SSL en IIS, així com instal·lació de programes de forma automatitzada."
             ],
             "id": "batch"
+        },
+        "ionic": {
+            "name": "Ionic",
+            "progress": "65",
+            "frameworks": [
+                {
+                    "id": "capacitor",
+                    "nombre": "Capacitor"
+                },
+                {
+                    "id": "Cordova",
+                    "nombre": "Cordova"
+                }
+            ],
+            "experiences": [
+                "Desenvolupament d’aplicacions híbrides per a mòbils utilitzant Ionic.\nImplementació d’interfícies d’usuari responsives i integració amb APIs backend."
+            ],
+            "tecnologias": [
+                "Ionic Framework",
+                "Angular / React",
+                "TypeScript",
+                "HTML5 i CSS3",
+                "Cordova / Capacitor",
+                "REST APIs"
+            ],
+            "funcionalidades": [
+                "Creació d’aplicacions híbrides per a iOS i Android.",
+                "Desenvolupament d’interfícies responsives amb Angular o React.",
+                "Integració amb APIs REST i serveis externs.",
+                "Gestió de plugins de Cordova i Capacitor per a funcionalitats natives.",
+                "Implementació de navegació i lògica d’aplicació mòbil."
+            ],
+            "responsabilidades": [
+                "Desenvolupament i manteniment d’aplicacions mòbils híbrides amb Ionic.",
+                "Implementació de components i pàgines responsives amb Angular o React.",
+                "Integració de serveis backend i consum d’APIs REST.",
+                "Gestió de plugins natives amb Capacitor/Cordova per funcionalitats específiques.",
+                "Test i depuració d’aplicacions en dispositius reals i simuladors."
+            ],
+            "id": "ionic"
         }
     },
     "workingexperiences": {
@@ -212,7 +350,7 @@
         "experiencia3": {
             "startingYear": 2018,
             "finishYear": 2023,
-            "startingMonth": "Mar.",
+            "startingMonth": "Des.",
             "finishMonth": "Ago.",
             "nombrePuesto": "Auxiliar de seguretat",
             "empresa": "Barna Porters",
@@ -235,17 +373,21 @@
         },
         "experiencia5": {
             "startingYear": 2022,
-            "finishYear": 0,
+            "finishYear": 2025,
             "startingMonth": "Jun.",
-            "finishMonth": "Actualment",
+            "finishMonth": "Abr",
             "nombrePuesto": "Desenvolupador Full-Stack Jr.",
             "empresa": "Qontinuum Plus SL",
             "experiences": [
-                "Desenvolupament d'aplicació Android per al control d'accés.",
-                "Desenvolupament d'ERP web amb TypeScript i Angular.",
-                "Implementació de sistemes de seguretat, certificats SSL.",
-                "Desenvolupament de pàgines web per a auto-registre de visitants i accés.",
-                "Millores en aplicacions existents, migració de PHP i solució de pàgines web."
+                "Vaig desenvolupar una aplicació Android per al control d'accessos, reduint en un 40% el temps de verificació manual.",
+                "Vaig construir un ERP web amb TypeScript i Angular, optimitzant els processos de negoci en diversos departaments.",
+                "Vaig implementar protocols de seguretat i integració de certificats SSL, millorant la fiabilitat del sistema i el compliment normatiu.",
+                "Vaig lliurar portals d'autoregistre de visitants i gestió d'accessos, augmentant l'eficiència i reduint la càrrega administrativa.",
+                "Vaig dissenyar i desplegar aplicacions d'escriptori i APIs RESTful, facilitant la integració de sistemes i accelerant l'intercanvi de dades.",
+                "Vaig optimitzar aplicacions heretades mitjançant la migració des de PHP i millores de rendiment, reduint els temps de càrrega de pàgines fins a un 60%.",
+                "Vaig liderar la presa de decisions tècniques i l'anàlisi de causes arrel, millorant la qualitat del codi i reduint errors recurrents.",
+                "Vaig automatitzar el desplegament d'aplicacions i vaig desenvolupar instal·ladors, minimitzant el temps de desplegament i els errors en la implementació.",
+                "Vaig introduir noves tecnologies i vaig actualitzar stacks existents, augmentant l'escalabilitat i la mantenibilitat a llarg termini dels sistemes."
             ]
         }
     },
@@ -253,12 +395,17 @@
         "home": "Inici",
         "education": "Estudis",
         "workingExperience": "Experiència laboral",
-        "programmingExperience": "Experiència en programació",
+        "programmingExperience": "Stack Tecnològic",
         "CV": "Currículum",
         "downloadCV": "Descarregar CV",
         "seeHere": "Veure aquí",
         "intro": "Desenvolupador Full StacK",
-        "infoText":"Aquesta pàgina ha sigut creada amb Angular",
+        "infoText": "Aquesta pàgina ha sigut creada amb Angular",
         "search": "Cerca"
+    },
+    "idiomas": {
+        "en": "Anglès",
+        "es": "Espanyol",
+        "ca": "Català"
     }
 }

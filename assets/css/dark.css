@@ -1,0 +1,213 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+/* El footer siempre al fondo */
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+::ng-deep .colorblack {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+p,
+h2,
+h3,
+h4 {
+  padding-left: 2%;
+  white-space: pre-wrap;
+  color: white !important;
+}
+
+h3 {
+  font-size: 40px;
+  color: white !important;
+}
+
+/* p{
+color: white;
+} */
+
+.centerText {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+
+/* .center {
+  background-color: black !important;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+} */
+
+
+/* boton hacia arriba */
+/* .to-top {
+    bottom: 0;
+    cursor: pointer;
+    margin: 0 8px 12px 0;
+    position: fixed;
+    right: 0;
+    opacity: 0;
+  }
+  
+  .show-scrollTop {
+    opacity: 1 !important;
+    transition: all 0.2s ease-in-out;
+  } */
+
+
+/* css tarjeta */
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  height: fit-content;
+  /* width: 90%; */
+  background-color: black !important;
+  /* border: 1px solid rgb(191, 9, 9); */
+  /* box-shadow: 2px 2px 8px 4px #d3d3d3d1; */
+  border-radius: 15px;
+  font-family: sans-serif;
+
+  color: white !important;
+  height: 100%;
+}
+
+
+
+/* 
+  .to-top {
+    bottom: 0;
+    cursor: pointer;
+    margin: 0 8px 12px 0;
+    position: fixed;
+    right: 0;
+    opacity: 0;
+  } */
+
+/*   
+  .show-scrollTop {
+    opacity: 1 !important;
+    transition: all 0.2s ease-in-out;
+  } */
+
+
+
+.accordion-item {
+  background-color: transparent;
+  border: none;
+  color: white;
+
+}
+
+.accordion-button:not(.collapsed) {
+  background-image: linear-gradient(rgb(3, 193, 44), rgb(255, 255, 255));
+  outline: none;
+
+}
+
+.accordion-button {
+  background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 255, 255));
+}
+
+
+
+
+
+
+.card-header {
+  background-image: linear-gradient(rgb(1, 187, 255), rgb(255, 255, 255));
+  outline: none;
+
+}
+
+.card-body {
+  color: white;
+}
+
+.card {
+  background-color: transparent;
+
+}
+
+
+/* .toggle {
+    background-color: #607d8b;
+    color: #607d8b;
+    visibility: hidden;
+} */
+
+/* .toggle_label {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+} */
+
+/* .slider {
+    bottom: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    border: 5px solid white;
+    content: "";
+    height: 36px;
+    width: 36px;
+    right: 10px;
+    left: 7px;
+    top: 7px;
+    position: absolute;
+    transition: .4s;
+    border-radius: 50%;
+} */
+
+.scroll-to-top {
+  bottom: 0;
+  cursor: pointer;
+  margin: 0 8px 12px 0;
+  position: fixed;
+  right: 0;
+  opacity: 0;
+  color: white !important;
+}
+
+:host ::ng-deep ::ng-deep ::ng-deep ::ng-deep ul * {
+  padding-top: 5%;
+  color: white !important;
+  list-style: none;
+
+}
