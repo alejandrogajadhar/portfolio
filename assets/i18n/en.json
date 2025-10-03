@@ -119,7 +119,8 @@
                 "Configuration of multilanguage support and integration of legacy JS libraries.",
                 "Configuration and deployment of SSL certificates for production environment.",
                 "Application of SCSS/CSS for an adaptive and maintainable design."
-            ]
+            ],
+             "id": "angular"
         },
         "javascript": {
             "name": "Javascript",

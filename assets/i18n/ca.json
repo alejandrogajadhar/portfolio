@@ -119,7 +119,8 @@
                 "Configuració de suport multillenguatge i integració de llibreries JS heretades.",
                 "Configuració i desplegament de certificats SSL per a l’entorn de producció.",
                 "Aplicació de SCSS/CSS per a un disseny adaptable i mantenible."
-            ]
+            ],
+             "id": "angular"
         },
         "javascript": {
             "name": "Javascript",
